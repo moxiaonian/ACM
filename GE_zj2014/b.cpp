@@ -56,25 +56,6 @@ int printLab(int m,int prime)
 	 		}
 	 	}
 	 	printf("-");
- 		// while(hashTable[lab] == 1)
- 		// {
- 		// 	lab++;
-			// if(lab == prime)
-			// {
-			// 	lab = 0;
-			// }
-			// if(lab == begin)
-			// {
-			// 	printf("-");
-			// 	break;
-			// }
-			// if(hashTable[lab] == 0)
-			// {
-			// 	hashTable[lab] = 1;
-	  // 	 		printf("-");
-			// 	   break;
-			// }
-	 	// }
 	 }
 	 return  0;
 }
@@ -84,7 +65,7 @@ int main()
 	int MSize,N;
 	int i;
 	int Prime;
-	freopen("b.txt","r",stdin);
+      //freopen("b.txt","r",stdin);
 	scanf("%d%d",&MSize,&N);
 	for(i=0; i<N; i++)
 	{
