@@ -9,7 +9,7 @@ int main()
 	int i;
 	int com_len,len_temp;
 	int flag;
-	freopen("a.txt","r",stdin);
+      //freopen("a.txt","r",stdin);
 	scanf("%d\n",&N);
 	for(i=0; i<N; i++)
 	{
